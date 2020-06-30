@@ -1,5 +1,9 @@
 package com.algorithm.sort;
 
+import java.util.ArrayList;
+import java.util.Queue;
+import java.util.Stack;
+
 public class InsertSort {
 
 	public static void main(String[] args) {
@@ -16,7 +20,10 @@ public class InsertSort {
 					j--;
 				}
 		}
+		Stack<Integer> stk=new Stack<>();
+		
 
+		ArrayList<Queue> qList=new ArrayList<>(); 
 		for(int i=0; i<array.length; i++) {
 			System.out.println(array[i]);
 		}	
